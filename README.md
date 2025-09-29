@@ -59,7 +59,7 @@ dpkg-buildpackage -us -uc -b
 sudo apt install ../chinese-calendar_*.deb
 ```
 
-安装完成后，你就可以在应用程序菜单中找到“农历日历”了。
+安装完成后，你就可以在应用程序菜单中找到“优客日历”了。
 
 ## 许可证
 
