@@ -6,7 +6,9 @@ Uploaders: Abel Liu <guiltyritter@gmail.com>,
            Shine Huang <shenghuang@ubuntukylin.com>,
            Anthony Wong <anthony.wong@ubuntu.com>
 Build-Depends: debhelper (>= 9),
-               libqt4-dev (>= 4.8.1)
+               qtbase5-dev,
+               libqt5svg5-dev,
+               qt5-qmake
 Standards-Version: 3.9.6
 Homepage: https://launchpad.net/chinese-calendar
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/chinese-calendar/trunk/files
@@ -14,7 +16,7 @@ Vcs-Bzr: lp:chinese-calendar
 
 Package: chinese-calendar
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libqt4-sql-sqlite
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Chinese lunar calendar
  This indicator is used to show a Chinese lunar calendar which is
  tailored for Chinese users. The calendar can show festivals and the

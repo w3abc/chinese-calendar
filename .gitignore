@@ -1,0 +1,28 @@
+# Qt/qmake generated files
+Makefile*
+*.o
+*.so
+*.a
+*.user
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+.qmake.stash
+
+# Build directories and executables
+build/
+debug/
+release/
+chinese-calendar
+
+# Debian packaging artifacts
+debian/files
+debian/chinese-calendar/
+debian/*.substvars
+debian/*.debhelper.log
+debian/.debhelper/
+# Also ignore packages if they are created in the project root
+*.deb
+*.ddeb
+*.buildinfo
+*.changes
