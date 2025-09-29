@@ -3,6 +3,8 @@
 一款传统的农历日历应用，最初为 Ubuntu Kylin 开发。它能同时显示公历和农历，并包含中国的传统节日和二十四节气。
 
 这个版本库已经更新，可以在现代的、基于 Debian 的 Linux 发行版（如 Ubuntu 22.04+、Linux Mint 22+）上成功构建和运行。
+## 下载运行
+可以直接下载deb包安装运行，在linux mint 22+ 上测试通过。
 
 ![截图 1](https://www.ubuntukylin.com/public/images/928_nl1.png)
 ![截图 2](https://www.ubuntukylin.com/public/images/928_nl2.png)
