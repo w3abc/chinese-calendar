@@ -1,4 +1,4 @@
-# 农历日历 (Chinese Calendar)
+# 优客日历 (Chinese Calendar)
 
 一款传统的农历日历应用，最初为 Ubuntu Kylin 开发。它能同时显示公历和农历，并包含中国的传统节日和二十四节气。
 
